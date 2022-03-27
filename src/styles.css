@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&family=Roboto+Mono:wght@400;500&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  padding: 30px 50px;
+  background-color: #485365;
+  height: 100vh;
+}
+
+main.light{
+  background-color:#e2e2e2 ;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.light h1{
+  color: #485365;
+}
+
+.title {
+  color: #c7e7e6;
+}
+
+
+.time-string {
+  text-align: center;
+  color: #c7e7e6;
+  font-size: 5rem;
+  font-family:'Red Hat Mono', monospace;
+}
+
+
+
+.time-container {
+  display: grid;
+  grid-template: auto auto/repeat(2, 1fr);
+  grid-gap: 3%;
+}
+.box-title {
+  color: #c5e3e5;
+  margin-bottom: 10px;
+}
+
+.box-bar {
+  color: #666666;
+  background-color: #e2e2e2;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.box-label {
+  margin-top: 5px;
+  text-align: right;
+  color: #c5e3e5;
+}
+
+.box-pass {
+  background-color: #7ab8b2;
+  height: 100%;
+  width: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.box-per {
+  font-weight: 700;
+  font-size: 1.3rem;
+  display: absolute;
+}
+
+.light .box-pass{
+  background-color: #485365;
+}
+.light .box-bar{
+  background-color:#8799a0 ;
+}
+.light .box-per{
+  color: #c7e7e6;
+}
+.light .box-title {
+  color:#485365;
+}
+
+.light .box-label{
+  color:#485365;
+}
+/* toggle */
+.toggler {
+    display: flex;
+    align-items: center;
+}
+
+.toggler p {
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+
+.toggler--slider {
+    width: 25px;
+    height: 13px;
+    background-color: #2B283A;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid #2B283A;
+    box-sizing: content-box;
+}
+
+.light .toggler--slider {
+    border-color: #485365;
+    background-color: #485365;
+}
+
+.toggler--slider--circle {
+    height: 13px;
+    width: 13px;
+    background-color:#e2e2e2;
+    border-radius: 50%;
+}
+
+.light .toggler--slider--circle {
+    background-color: #e2e2e2;
+
+}
+
+.toggler--light {
+    color: #2B283A;
+}
+
+.light .toggler--light {
+    color: #485365;
+}
+
+.toggler--dark {
+    color: #c7e7e6;
+}
+
+.light .toggler--dark {
+    color: #918E9B;
+}
+
+.light .toggler--slider {
+    justify-content: flex-start;
+}
