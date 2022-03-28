@@ -49,7 +49,9 @@ export default function App() {
         <h1 className="title">Welcome back, sober.</h1>
         <Toggler lightMode={lightMode}  toggleLightMode={toggleLightMode}/>
       </div>
-      <h1 className='time-string'>{time}</h1>
+      <div className='time-string'>
+        <h1>{time}</h1>
+      </div>
       <div className="time-container">{timeBoxElements}</div>
     </main>
   );
