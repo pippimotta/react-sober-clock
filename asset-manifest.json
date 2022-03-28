@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-sober-clock/static/css/main.6e77484d.css",
+    "main.css": "/react-sober-clock/static/css/main.cf40cdd7.css",
     "main.js": "/react-sober-clock/static/js/main.90d8d113.js",
     "index.html": "/react-sober-clock/index.html",
-    "main.6e77484d.css.map": "/react-sober-clock/static/css/main.6e77484d.css.map",
+    "main.cf40cdd7.css.map": "/react-sober-clock/static/css/main.cf40cdd7.css.map",
     "main.90d8d113.js.map": "/react-sober-clock/static/js/main.90d8d113.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e77484d.css",
+    "static/css/main.cf40cdd7.css",
     "static/js/main.90d8d113.js"
   ]
 }
